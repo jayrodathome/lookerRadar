@@ -1,2 +1,3 @@
 # lookerRadar
-A replacement radar chart for Looker 
+
+A replacement radar chart for Looker

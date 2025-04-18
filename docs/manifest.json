@@ -1,0 +1,38 @@
+{
+    "dataStudio": {
+      "name": "Radar Chart (Chart.js)",
+      "logoUrl": "https://your‑host/logo.png",
+      "company": "Your Name",
+      "companyUrl": "https://your‑site.com",
+      "addonUrl": "https://YOUR‑USERNAME.github.io/lookerRadar/index.html",
+      "supportUrl": "https://your‑site.com/support",
+      "description": "Spider/radar chart built with Chart.js",
+      "authModes": ["ANONYMOUS"],
+      "types": ["CHART"],
+      "style": [
+        {
+          "type": "COLOR",
+          "name": "Series Colors",
+          "id": "seriesColors",
+          "defaultValue": [
+            { "color": "#D33E47" },
+            { "color": "#AAAAAA" }
+          ]
+        },
+        {
+          "type": "NUMBER",
+          "name": "Line Width",
+          "id": "lineWidth",
+          "defaultValue": 2,
+          "min": 1,
+          "max": 10
+        },
+        {
+          "type": "BOOLEAN",
+          "name": "Fill Areas",
+          "id": "fillAreas",
+          "defaultValue": true
+        }
+      ]
+    }
+  }
