@@ -1,5 +1,7 @@
   {
     "dataStudio": {
+      "id" : "radarChartViz",
+      "version": "1.0.0",
       "name": "Radar Chart (Chart.js)",
       "logoUrl": "https://jayrodathome.github.io/lookerRadar/logo.png",
       "company": "Jarrod Lilly",
