@@ -1,38 +1,21 @@
 {
-      "id" : "radarChartViz",
-      "version": "1.0.0",
+  "name": "Radar Viz Package",
+  "organization": "Jarrod Lilly",
+  "description": "Radar Chart built with Chart.js",
+  "logoUrl": "https://jayrodathome.github.io/lookerRadar/logo.png",
+  "supportUrl": "https://github.com/jayrodathome/lookerRadar",
+  "devMode": true,
+  "components": [
+    {
+      "id": "radarChart",
       "name": "Radar Chart (Chart.js)",
-      "logoUrl": "https://jayrodathome.github.io/lookerRadar/logo.png",
-      "company": "Jarrod Lilly",
-      "companyUrl": "https://www.netechair.com",
-      "addonUrl": "https://jayrodathome.github.io/lookerRadar/index.html",
-      "supportUrl": "https://github.com/jayrodathome/lookerRadar",
       "description": "Multi-dimensional radar chart built with Chart.js",
-      "authModes": ["ANONYMOUS"],
-      "types": ["CHART"],
-      "style": [
-        {
-          "type": "COLOR",
-          "name": "Series Colors",
-          "id": "seriesColors",
-          "defaultValue": [
-            { "color": "#D33E47" },
-            { "color": "#AAAAAA" }
-          ]
-        },
-        {
-          "type": "NUMBER",
-          "name": "Line Width",
-          "id": "lineWidth",
-          "defaultValue": 2,
-          "min": 1,
-          "max": 10
-        },
-        {
-          "type": "BOOLEAN",
-          "name": "Fill Areas",
-          "id": "fillAreas",
-          "defaultValue": true
-        }
-      ]
+      "iconUrl": "https://jayrodathome.github.io/lookerRadar/logo.png",
+      "resource": {
+        "js":     "gs://lookerradar/radar_chart.js",
+        "css":    "gs://lookerradar/styles.css",
+        "config": "gs://lookerradar/config.json"
+      }
     }
+  ]
+}
