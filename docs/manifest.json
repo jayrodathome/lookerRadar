@@ -1,12 +1,12 @@
-{
+  {
     "dataStudio": {
       "name": "Radar Chart (Chart.js)",
-      "logoUrl": "https://your‑host/logo.png",
-      "company": "Your Name",
-      "companyUrl": "https://your‑site.com",
-      "addonUrl": "https://YOUR‑USERNAME.github.io/lookerRadar/index.html",
-      "supportUrl": "https://your‑site.com/support",
-      "description": "Spider/radar chart built with Chart.js",
+      "logoUrl": "https://jayrodathome.github.io/lookerRadar/logo.png",
+      "company": "Jarrod Lilly",
+      "companyUrl": "https://www.netechair.com",
+      "addonUrl": "https://jayrodathome.github.io/lookerRadar/index.html",
+      "supportUrl": "https://github.com/jayrodathome/lookerRadar",
+      "description": "Multi-dimensional radar chart built with Chart.js",
       "authModes": ["ANONYMOUS"],
       "types": ["CHART"],
       "style": [
