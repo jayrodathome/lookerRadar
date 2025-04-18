@@ -1,5 +1,4 @@
-  {
-    "dataStudio": {
+{
       "id" : "radarChartViz",
       "version": "1.0.0",
       "name": "Radar Chart (Chart.js)",
@@ -37,4 +36,3 @@
         }
       ]
     }
-  }
