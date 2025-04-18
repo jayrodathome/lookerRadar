@@ -3,6 +3,8 @@
   "organization": "Jarrod Lilly",
   "description": "Radar Chart built with Chart.js",
   "logoUrl": "https://jayrodathome.github.io/lookerRadar/logo.png",
+  "packageUrl": "https://jayrodathome.github.io/lookerRadar/",
+  "organizationUrl": "https://www.netechair.com",
   "supportUrl": "https://github.com/jayrodathome/lookerRadar",
   "devMode": true,
   "components": [
@@ -12,9 +14,9 @@
       "description": "Multi-dimensional radar chart built with Chart.js",
       "iconUrl": "https://jayrodathome.github.io/lookerRadar/logo.png",
       "resource": {
-        "js":     "gs://lookerradar/radar_chart.js",
-        "css":    "gs://lookerradar/styles.css",
-        "config": "gs://lookerradar/config.json"
+        "js":     "gs://lookerradar/radarChart/radar_chart.js",
+        "css":    "gs://lookerradar/radarChart/styles.css",
+        "config": "gs://lookerradar/radarChart/config.json"
       }
     }
   ]
